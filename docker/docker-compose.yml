@@ -9,6 +9,7 @@ services:
       - db:/var/lib/postgresql/data
     networks:
       - decide
+  
   web:
     restart: always
     container_name: decide_web
